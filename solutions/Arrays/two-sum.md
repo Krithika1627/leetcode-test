@@ -1,4 +1,4 @@
----
+
 # Two Sum
 
 **Difficulty:** Easy | **Topic:** Arrays | **Language:** python  
@@ -36,4 +36,4 @@ class Solution:
 
 ## Related Problems
 <!-- links to similar problems will be added in Part 2 -->
----
+
