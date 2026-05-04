@@ -13,28 +13,28 @@
 
 ## Solution
 ```text
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
+
+            if (l1) {
+                sum += l1->val;
+        while (l1 || l2 || carry) {
+            int sum = carry;
+        int carry = 0;
+
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        ListNode* dummy = new ListNode(0);
+        ListNode* temp = dummy;
  *     ListNode(int x) : val(x), next(nullptr) {}
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
 class Solution {
-public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* dummy = new ListNode(0);
-        ListNode* temp = dummy;
-        int carry = 0;
-
-        while (l1 || l2 || carry) {
-            int sum = carry;
-
-            if (l1) {
-                sum += l1->val;
- * struct ListNode {
- * Definition for singly-linked list.
 /**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
 
 ```
 
