@@ -5,7 +5,7 @@
 **LeetCode:** https://leetcode.com/problems/symmetric-tree/
 
 ## Approach
-tree
+<!-- add your approach here -->
 
 ## Complexity
 - Time: <!-- e.g. O(n) -->
@@ -13,8 +13,6 @@ tree
 
 ## Solution
 ```text
- *     int val;
- *     TreeNode *left;
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
@@ -32,10 +30,11 @@ public:
                isMirror(t1->right, t2->left);
     }
 
-    bool isSymmetric(TreeNode* root) {
-        return isMirror(root, root);
-    }
-};
+ *     TreeNode *left;
+ *     int val;
+ * struct TreeNode {
+ * Definition for a binary tree node.
+/**
 
 ```
 
