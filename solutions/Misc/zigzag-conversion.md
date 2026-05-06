@@ -13,6 +13,13 @@
 
 ## Solution
 ```text
+class Solution {
+public:
+    string convert(string s, int numRows) {
+        if (numRows == 1 || s.size() <= numRows)
+            return s;
+
+        vector<string> rows(numRows);
 
         int currentRow = 0;
         bool goingDown = false;
@@ -21,20 +28,11 @@
             rows[currentRow] += c;
 
             // Change direction at top/bottom
-            if (currentRow == 0 || currentRow == numRows - 1)
+            if (currentRow == 0 || currentRow == 
+numRows - 1)
                 goingDown = !goingDown;
 
             currentRow += goingDown ? 1 : -1;
-        }
-
-        string result = "";
-        vector<string> rows(numRows);
-            return s;
-
-        if (numRows == 1 || s.size() <= numRows)
-    string convert(string s, int numRows) {
-public:
-class Solution {
 
 ```
 
