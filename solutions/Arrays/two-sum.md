@@ -1,8 +1,7 @@
-
 # Two Sum
 
-**Difficulty:** Easy | **Topic:** Arrays | **Language:** python  
-**Solved:** 2026-05-03  
+**Difficulty:** Easy | **Topic:** Arrays | **Language:** text  
+**Solved:** 2026-05-09  
 **LeetCode:** https://leetcode.com/problems/two-sum/
 
 ## Approach
@@ -13,27 +12,38 @@
 - Space: <!-- e.g. O(1) -->
 
 ## Solution
-```py
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        hashmap={}
-        for i in range(len(nums)):
-            n=target-nums[i]
-            if n in hashmap:
-                return [hashmap[n],i]
-            else:
-                if nums[i] not in hashmap:
-                    hashmap[nums[i]]=i
+```text
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+
+        unordered_map<int, int> mp;
+
+        for (int i = 0; i < nums.size(); i++) {
+
+            int complement = target - nums[i];
+
+            // If complement already exists
+            if (mp.find(complement) != mp.end()) {
+                return {mp[complement], i};
+            }
+
+            // Store current number and index
+            mp[nums[i]] = i;
+        }
+
+        return {};
+    }
+};
 
 ```
 
 ## Runtime & Memory
-- Runtime: null ms
-- Memory: null MB
+- Runtime: 0.00 ms
+- Memory: 0.00 MB
 
 ## Mistakes & Notes
 <!-- use this section for post-solve reflections -->
 
 ## Related Problems
 <!-- links to similar problems will be added in Part 2 -->
-
