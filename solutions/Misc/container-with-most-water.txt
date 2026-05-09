@@ -1,6 +1,3 @@
-        int right = height.length - 1;
-
-        int maxWater = 0;
 
         while (left < right) {
             int width = right - left;
@@ -17,6 +14,6 @@
             }
         }
 
-        int left = 0;
-class Solution {
-    public int maxArea(int[] height) {
+        return maxWater;
+    }
+}
