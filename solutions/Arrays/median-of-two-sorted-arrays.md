@@ -1,0 +1,49 @@
+# Median of Two Sorted Arrays
+
+**Difficulty:** Hard | **Topic:** Arrays | **Language:** text  
+**Solved:** 2026-05-09  
+**LeetCode:** https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+## Approach
+<!-- add your approach here -->
+
+## Complexity
+- Time: <!-- e.g. O(n) -->
+- Space: <!-- e.g. O(1) -->
+
+## Solution
+```text
+            int left1 = (cut1 == 0) ? INT_MIN : nums1[cut1 - 1];
+            int left2 = (cut2 == 0) ? INT_MIN : nums2[cut2 - 1];
+
+            int right1 = (cut1 == m) ? INT_MAX : nums1[cut1];
+            int right2 = (cut2 == n) ? INT_MAX : nums2[cut2];
+
+            if (left1 <= right2 && left2 <= right1) {
+                if ((m + n) % 2 == 0)
+                    return (max(left1, left2) + min(right1, right2)) / 2.0;
+
+            int cut2 = (m + n + 1) / 2 - cut1;
+        while (low <= high) {
+            int cut1 = (low + high) / 2;
+        int low = 0, high = m;
+
+
+        int m = nums1.size(), n = nums2.size();
+        if (nums1.size() > nums2.size())
+            return findMedianSortedArrays(nums2, nums1);
+public:
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+class Solution {
+
+```
+
+## Runtime & Memory
+- Runtime: 0.00 ms
+- Memory: 0.00 MB
+
+## Mistakes & Notes
+<!-- use this section for post-solve reflections -->
+
+## Related Problems
+<!-- links to similar problems will be added in Part 2 -->
