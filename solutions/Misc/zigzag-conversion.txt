@@ -13,10 +13,10 @@
         }
 
         string result = "";
-        vector<string> rows(numRows);
-            return s;
 
-        if (numRows == 1 || s.size() <= numRows)
-    string convert(string s, int numRows) {
-public:
-class Solution {
+        for (string row : rows)
+            result += row;
+
+        return result;
+    }
+};
