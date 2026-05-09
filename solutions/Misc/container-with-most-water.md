@@ -1,11 +1,11 @@
 # Container With Most Water
 
 **Difficulty:** Medium | **Topic:** Misc | **Language:** text  
-**Solved:** 2026-05-07  
+**Solved:** 2026-05-09  
 **LeetCode:** https://leetcode.com/problems/container-with-most-water/
 
 ## Approach
-in java
+<!-- add your approach here -->
 
 ## Complexity
 - Time: <!-- e.g. O(n) -->
@@ -13,9 +13,6 @@ in java
 
 ## Solution
 ```text
-        int right = height.length - 1;
-
-        int maxWater = 0;
 
         while (left < right) {
             int width = right - left;
@@ -32,15 +29,15 @@ in java
             }
         }
 
-        int left = 0;
-class Solution {
-    public int maxArea(int[] height) {
+        return maxWater;
+    }
+}
 
 ```
 
 ## Runtime & Memory
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0.00 ms
+- Memory: 0.00 MB
 
 ## Mistakes & Notes
 <!-- use this section for post-solve reflections -->
