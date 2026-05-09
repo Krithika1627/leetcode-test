@@ -1,7 +1,7 @@
 # Zigzag Conversion
 
 **Difficulty:** Medium | **Topic:** Misc | **Language:** text  
-**Solved:** 2026-05-06  
+**Solved:** 2026-05-09  
 **LeetCode:** https://leetcode.com/problems/zigzag-conversion/
 
 ## Approach
@@ -13,13 +13,6 @@
 
 ## Solution
 ```text
-class Solution {
-public:
-    string convert(string s, int numRows) {
-        if (numRows == 1 || s.size() <= numRows)
-            return s;
-
-        vector<string> rows(numRows);
 
         int currentRow = 0;
         bool goingDown = false;
@@ -28,17 +21,26 @@ public:
             rows[currentRow] += c;
 
             // Change direction at top/bottom
-            if (currentRow == 0 || currentRow == 
-numRows - 1)
+            if (currentRow == 0 || currentRow == numRows - 1)
                 goingDown = !goingDown;
 
             currentRow += goingDown ? 1 : -1;
+        }
+
+        string result = "";
+
+        for (string row : rows)
+            result += row;
+
+        return result;
+    }
+};
 
 ```
 
 ## Runtime & Memory
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 3 ms
+- Memory: 0 MB
 
 ## Mistakes & Notes
 <!-- use this section for post-solve reflections -->
