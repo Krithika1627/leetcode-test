@@ -1,7 +1,7 @@
 # Zigzag Conversion
 
 **Difficulty:** Easy | **Topic:** Strings | **Language:** cpp  
-**Solved:** 2026-05-13  
+**Solved:** 2026-05-21  
 **LeetCode:** https://leetcode.com/problems/zigzag-conversion/
 
 ## Approach
@@ -13,34 +13,40 @@
 
 ## Solution
 ```cpp
-
-        for (char c : s) {
-            rows[currentRow] += c;
-
-            // Change direction at top/bottom
-            if (currentRow == 0 || currentRow == numRows - 1)
-                goingDown = !goingDown;
-
-            currentRow += goingDown ? 1 : -1;
-        }
-
-        string result = "";
-        int currentRow = 0;
-        bool goingDown = false;
-
-        vector<string> rows(numRows);
-
-        if (numRows == 1 || s.size() <= numRows)
-            return s;
-    string convert(string s, int numRows) {
-class Solution {
+class Solution {
 public:
+    string convert(string s, int numRows) {
+        if (numRows == 1 || s.size() <= numRows)
+            return s;
 
+        vector<string> rows(numRows);
+
+        int currentRow = 0;
+        bool goingDown = false;
+
+        for (char c : s) {
+            rows[currentRow] += c;
+
+            // Change direction at top/bottom
+            if (currentRow == 0 || currentRow == numRows - 1)
+                goingDown = !goingDown;
+
+            currentRow += goingDown ? 1 : -1;
+        }
+
+        string result = "";
+
+        for (string row : rows)
+            result += row;
+
+        return result;
+    }
+};
 ```
 
 ## Runtime & Memory
-- Runtime: 0.00 ms
-- Memory: 14.10 MB
+- Runtime: 5.00 ms
+- Memory: 14.20 MB
 
 ## Mistakes & Notes
 <!-- use this section for post-solve reflections -->
