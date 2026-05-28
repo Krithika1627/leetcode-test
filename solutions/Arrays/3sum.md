@@ -75,6 +75,7 @@ public:
 | Version | File | Date |
 |---------|------|------|
 | v1 | [3sum.cpp](./3sum.cpp) | 2026-05-27 |
+| v2 | [3sum_v2.cpp](./3sum_v2.cpp) | 2026-05-28 |
 
 ## Mistakes & Notes
 <!-- post-solve reflections: what did you miss, what patterns did you notice -->
