@@ -1,49 +1,28 @@
 {
-  "total_solved": 3,
+  "total_solved": 1,
   "by_topic": {
-    "Arrays": 1,
-    "Math": 1,
-    "Strings": 1,
+    "LinkedList": 1
   },
   "by_difficulty": {
-    "Easy": 2,
-    "Medium": 1,
+    "Easy": 1,
+    "Medium": 0,
+    "Hard": 0
   },
   "by_language": {
-    "cpp": 1,
-    "java": 1,
-    "text": 1
+    "python": 1
   },
   "current_streak": 1,
   "longest_streak": 1,
-  "last_solved_date": "2026-06-03",
+  "last_solved_date": "2026-06-04",
   "solve_log": [
     {
-      "slug": "add-two-numbers",
-      "title": "Add Two Numbers",
-      "topic": "Math",
-      "difficulty": "Medium",
-      "language": "text",
-      "date": "2026-06-03",
-      "commit_sha": "0959a206e3a5c35e6ca221d62467f27448a4bb8c"
-    },
-    {
-      "slug": "longest-substring-without-repeating-characters",
-      "title": "Longest Substring Without Repeating Characters",
-      "topic": "Arrays",
+      "slug": "remove-nth-node-from-end-of-list",
+      "title": "Remove Nth Node From End of List",
+      "topic": "LinkedList",
       "difficulty": "Easy",
-      "language": "cpp",
-      "date": "2026-06-03",
-      "commit_sha": "31bc808828f710d906ec5db54ed96d7c6e8b4dc8"
-    },
-    {
-      "slug": "valid-parentheses",
-      "title": "Valid Parentheses",
-      "topic": "Strings",
-      "difficulty": "Easy",
-      "language": "java",
-      "date": "2026-05-31",
-      "commit_sha": "b5a22b8fe131d75381d117dda6455235e31f60db"
+      "language": "python",
+      "date": "2026-06-04",
+      "commit_sha": "24f8f2e69a155caaabe3f85c09842a71753d6c4d"
     }
   ]
 }
