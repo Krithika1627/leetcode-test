@@ -1,49 +1,71 @@
+---
 # Median of Two Sorted Arrays
 
-**Difficulty:** Hard | **Topic:** Arrays | **Language:** text  
-**Solved:** 2026-05-09  
-**LeetCode:** https://leetcode.com/problems/median-of-two-sorted-arrays/
+<!-- badges -->
+![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square)  ![Arrays](https://img.shields.io/badge/Arrays-0a84ff?style=flat-square)  ![cpp](https://img.shields.io/badge/cpp-555555?style=flat-square)  <!-- streak badge placeholder -->
+
+**LeetCode:** https://leetcode.com/problems/median-of-two-sorted-arrays/  
+**Solved:** 2026-06-04  
+**Runtime:** <!-- runtime_ms --> ms | **Memory:** 95.2 MB
+
+---
 
 ## Approach
-<!-- add your approach here -->
+<!-- describe your approach here -->
 
 ## Complexity
-- Time: <!-- e.g. O(n) -->
-- Space: <!-- e.g. O(1) -->
+- **Time:** <!-- e.g. O(n) -->
+- **Space:** <!-- e.g. O(1) -->
 
 ## Solution
-```text
-            int left1 = (cut1 == 0) ? INT_MIN : nums1[cut1 - 1];
-            int left2 = (cut2 == 0) ? INT_MIN : nums2[cut2 - 1];
 
-            int right1 = (cut1 == m) ? INT_MAX : nums1[cut1];
-            int right2 = (cut2 == n) ? INT_MAX : nums2[cut2];
-
-            if (left1 <= right2 && left2 <= right1) {
-                if ((m + n) % 2 == 0)
-                    return (max(left1, left2) + min(right1, right2)) / 2.0;
-
-            int cut2 = (m + n + 1) / 2 - cut1;
-        while (low <= high) {
-            int cut1 = (low + high) / 2;
-        int low = 0, high = m;
-
-
-        int m = nums1.size(), n = nums2.size();
-        if (nums1.size() > nums2.size())
-            return findMedianSortedArrays(nums2, nums1);
+```cpp
+class Solution {
 public:
-    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-class Solution {
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        if (nums1.size() > nums2.size())
+            return findMedianSortedArrays(nums2, nums1);
 
+        int m = nums1.size(), n = nums2.size();
+        int low = 0, high = m;
+
+        while (low <= high) {
+            int cut1 = (low + high) / 2;
+            int cut2 = (m + n + 1) / 2 - cut1;
+
+            int left1 = (cut1 == 0) ? INT_MIN : nums1[cut1 - 1];
+            int left2 = (cut2 == 0) ? INT_MIN : nums2[cut2 - 1];
+
+            int right1 = (cut1 == m) ? INT_MAX : nums1[cut1];
+            int right2 = (cut2 == n) ? INT_MAX : nums2[cut2];
+
+            if (left1 <= right2 && left2 <= right1) {
+                if ((m + n) % 2 == 0)
+                    return (max(left1, left2) + min(right1, right2)) / 2.0;
+                else
+                    return max(left1, left2);
+            }
+            else if (left1 > right2) {
+                high = cut1 - 1;
+            }
+            else {
+                low = cut1 + 1;
+            }
+        }
+        return 0.0;
+    }
+};
 ```
 
-## Runtime & Memory
-- Runtime: 0.00 ms
-- Memory: 0.00 MB
+## Versions
+| Version | File | Date |
+|---------|------|------|
+| v1 | [median-of-two-sorted-arrays.cpp](./median-of-two-sorted-arrays.cpp) | 2026-06-04 |
 
 ## Mistakes & Notes
-<!-- use this section for post-solve reflections -->
+<!-- post-solve reflections: what did you miss, what patterns did you notice -->
 
 ## Related Problems
-<!-- links to similar problems will be added in Part 2 -->
+<!-- links to related problems will be auto-populated in Part 3 -->
+
+---
