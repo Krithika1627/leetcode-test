@@ -1,20 +1,31 @@
 {
-  "total_solved": 1,
+  "total_solved": 2,
   "by_topic": {
-    "LinkedList": 1
+    "LinkedList": 1,
+    "Arrays": 1
   },
   "by_difficulty": {
-    "Easy": 1,
+    "Easy": 2,
     "Medium": 0,
     "Hard": 0
   },
   "by_language": {
-    "python": 1
+    "python": 1,
+    "cpp": 1
   },
   "current_streak": 1,
   "longest_streak": 1,
   "last_solved_date": "2026-06-04",
   "solve_log": [
+    {
+      "slug": "median-of-two-sorted-arrays",
+      "title": "Median of Two Sorted Arrays",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "language": "cpp",
+      "date": "2026-06-04",
+      "commit_sha": "133ee8da4bd2f3d741ee9d7a5aaacd052a648d23"
+    },
     {
       "slug": "remove-nth-node-from-end-of-list",
       "title": "Remove Nth Node From End of List",
