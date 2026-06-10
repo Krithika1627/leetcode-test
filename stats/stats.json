@@ -1,23 +1,32 @@
 {
-  "total_solved": 3,
+  "total_solved": 4,
   "by_topic": {
     "LinkedList": 1,
     "Arrays": 1,
-    "Strings": 1
+    "Strings": 2
   },
   "by_difficulty": {
-    "Easy": 3,
+    "Easy": 4,
     "Medium": 0,
     "Hard": 0
   },
   "by_language": {
-    "python": 1,
+    "python": 2,
     "cpp": 2
   },
   "current_streak": 1,
   "longest_streak": 1,
   "last_solved_date": "2026-06-10",
   "solve_log": [
+    {
+      "slug": "regular-expression-matching",
+      "title": "Regular Expression Matching",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "language": "python",
+      "date": "2026-06-10",
+      "commit_sha": "d5452627a77b27546554f07d1d2d73a395585b60"
+    },
     {
       "slug": "zigzag-conversion",
       "title": "Zigzag Conversion",
