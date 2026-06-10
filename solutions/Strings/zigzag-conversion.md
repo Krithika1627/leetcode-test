@@ -53,3 +53,8 @@ public:
 
 ## Related Problems
 <!-- links to similar problems will be added in Part 2 -->
+
+## Versions
+| Version | File | Date |
+|---------|------|------|
+| v2 | [zigzag-conversion_v2.cpp](./zigzag-conversion_v2.cpp) | 2026-06-10 |
