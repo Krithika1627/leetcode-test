@@ -1,22 +1,32 @@
 {
-  "total_solved": 2,
+  "total_solved": 3,
   "by_topic": {
     "LinkedList": 1,
-    "Arrays": 1
+    "Arrays": 1,
+    "Strings": 1
   },
   "by_difficulty": {
-    "Easy": 2,
+    "Easy": 3,
     "Medium": 0,
     "Hard": 0
   },
   "by_language": {
     "python": 1,
-    "cpp": 1
+    "cpp": 2
   },
   "current_streak": 1,
   "longest_streak": 1,
-  "last_solved_date": "2026-06-04",
+  "last_solved_date": "2026-06-10",
   "solve_log": [
+    {
+      "slug": "zigzag-conversion",
+      "title": "Zigzag Conversion",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "language": "cpp",
+      "date": "2026-06-10",
+      "commit_sha": "125a0942630735f6a0e91f000fa678262bec315c"
+    },
     {
       "slug": "median-of-two-sorted-arrays",
       "title": "Median of Two Sorted Arrays",
