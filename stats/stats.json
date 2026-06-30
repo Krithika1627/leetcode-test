@@ -1,23 +1,32 @@
 {
-  "total_solved": 4,
+  "total_solved": 5,
   "by_topic": {
-    "LinkedList": 1,
+    "LinkedList": 2,
     "Arrays": 1,
     "Strings": 2
   },
   "by_difficulty": {
     "Easy": 4,
     "Medium": 0,
-    "Hard": 0
+    "Hard": 1
   },
   "by_language": {
     "python": 2,
-    "cpp": 2
+    "cpp": 3
   },
   "current_streak": 1,
   "longest_streak": 1,
-  "last_solved_date": "2026-06-10",
+  "last_solved_date": "2026-06-30",
   "solve_log": [
+    {
+      "slug": "merge-k-sorted-lists",
+      "title": "Merge k Sorted Lists",
+      "topic": "LinkedList",
+      "difficulty": "Hard",
+      "language": "cpp",
+      "date": "2026-06-30",
+      "commit_sha": "5264d1e0d2dde3c7671fc91232140dd0eea6f19f"
+    },
     {
       "slug": "regular-expression-matching",
       "title": "Regular Expression Matching",
