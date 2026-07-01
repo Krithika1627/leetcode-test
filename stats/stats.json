@@ -1,23 +1,33 @@
 {
-  "total_solved": 6,
+  "total_solved": 7,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 2,
-    "Strings": 2
+    "Strings": 2,
+    "Math": 1
   },
   "by_difficulty": {
     "Easy": 4,
-    "Medium": 1,
+    "Medium": 2,
     "Hard": 1
   },
   "by_language": {
     "python": 2,
-    "cpp": 4
+    "cpp": 5
   },
   "current_streak": 2,
   "longest_streak": 2,
   "last_solved_date": "2026-07-01",
   "solve_log": [
+    {
+      "slug": "reverse-integer",
+      "title": "Reverse Integer",
+      "topic": "Math",
+      "difficulty": "Medium",
+      "language": "cpp",
+      "date": "2026-07-01",
+      "commit_sha": "7465a77f597c01a98dd3e6d9f95af4c9647c271a"
+    },
     {
       "slug": "3sum",
       "title": "3Sum",
