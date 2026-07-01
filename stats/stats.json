@@ -1,24 +1,33 @@
 {
-  "total_solved": 7,
+  "total_solved": 8,
   "by_topic": {
     "LinkedList": 2,
-    "Arrays": 2,
+    "Arrays": 3,
     "Strings": 2,
     "Math": 1
   },
   "by_difficulty": {
     "Easy": 4,
-    "Medium": 2,
+    "Medium": 3,
     "Hard": 1
   },
   "by_language": {
     "python": 2,
-    "cpp": 5
+    "cpp": 6
   },
   "current_streak": 2,
   "longest_streak": 2,
   "last_solved_date": "2026-07-01",
   "solve_log": [
+    {
+      "slug": "integer-to-roman",
+      "title": "Integer to Roman",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "language": "cpp",
+      "date": "2026-07-01",
+      "commit_sha": "6634a7d839fc43ea8ebe1281f834b836eb973f56"
+    },
     {
       "slug": "reverse-integer",
       "title": "Reverse Integer",
