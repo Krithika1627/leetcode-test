@@ -13,6 +13,8 @@
 ## Approach
 3 sum optimal
 
+
+**v3 (2026-07-01):** version 3 · 53 ms · 28.9 MB
 ## Complexity
 - **Time:** <!-- e.g. O(n) -->
 - **Space:** <!-- e.g. O(1) -->
@@ -76,6 +78,7 @@ public:
 |---------|------|------|
 | v1 | [3sum.cpp](./3sum.cpp) | 2026-05-27 |
 | v2 | [3sum_v2.cpp](./3sum_v2.cpp) | 2026-05-28 |
+| v3 | [3sum_v3.cpp](./3sum_v3.cpp) | 2026-07-01 |
 
 ## Mistakes & Notes
 <!-- post-solve reflections: what did you miss, what patterns did you notice -->
