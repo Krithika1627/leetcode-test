@@ -1,23 +1,32 @@
 {
-  "total_solved": 5,
+  "total_solved": 6,
   "by_topic": {
     "LinkedList": 2,
-    "Arrays": 1,
+    "Arrays": 2,
     "Strings": 2
   },
   "by_difficulty": {
     "Easy": 4,
-    "Medium": 0,
+    "Medium": 1,
     "Hard": 1
   },
   "by_language": {
     "python": 2,
-    "cpp": 3
+    "cpp": 4
   },
-  "current_streak": 1,
-  "longest_streak": 1,
-  "last_solved_date": "2026-06-30",
+  "current_streak": 2,
+  "longest_streak": 2,
+  "last_solved_date": "2026-07-01",
   "solve_log": [
+    {
+      "slug": "3sum",
+      "title": "3Sum",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "language": "cpp",
+      "date": "2026-07-01",
+      "commit_sha": "8a248cab084b4a518bbefe91502d65ffeeee3421"
+    },
     {
       "slug": "merge-k-sorted-lists",
       "title": "Merge k Sorted Lists",
