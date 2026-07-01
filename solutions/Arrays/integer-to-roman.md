@@ -52,3 +52,8 @@ public:
 
 ## Related Problems
 <!-- links to similar problems will be added in Part 2 -->
+
+## Versions
+| Version | File | Date |
+|---------|------|------|
+| v2 | [integer-to-roman_v2.cpp](./integer-to-roman_v2.cpp) | 2026-07-01 |
