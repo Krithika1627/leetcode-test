@@ -1,9 +1,9 @@
 ---
 # 🧩 leetcode-test — LeetCode Solutions
 
-![Total](https://img.shields.io/badge/Solved-10-blueviolet?style=flat-square)
-![Streak](https://img.shields.io/badge/Streak-1%20days-orange?style=flat-square)
-![Easy](https://img.shields.io/badge/Easy-5-00b8a3?style=flat-square)
+![Total](https://img.shields.io/badge/Solved-11-blueviolet?style=flat-square)
+![Streak](https://img.shields.io/badge/Streak-2%20days-orange?style=flat-square)
+![Easy](https://img.shields.io/badge/Easy-6-00b8a3?style=flat-square)
 ![Medium](https://img.shields.io/badge/Medium-4-ffa116?style=flat-square)
 ![Hard](https://img.shields.io/badge/Hard-1-ff375f?style=flat-square)
 
@@ -18,12 +18,13 @@
 | Strings | 2 | ██████████░░░░░░░░░░ |
 | Math | 1 | █████░░░░░░░░░░░░░░░ |
 | Stack | 1 | █████░░░░░░░░░░░░░░░ |
+| BitManipulation | 1 | █████░░░░░░░░░░░░░░░ |
 
 ## 🎯 Difficulty Breakdown
 
 | Difficulty | Count |
 |------------|-------|
-| ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | 5 |
+| ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | 6 |
 | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | 4 |
 | ![Hard](https://img.shields.io/badge/Hard-ff375f?style=flat-square) | 1 |
 
@@ -31,25 +32,25 @@
 
 | # | Problem | Topic | Difficulty | Language | Date |
 |---|---------|-------|------------|----------|------|
-| 1 | [Implement Stack using Queues](./solutions/Stack/implement-stack-using-queues.md) | Stack | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-05 |
-| 2 | [Minimum Number of Days to Make m Bouquets](./solutions/Arrays/minimum-number-of-days-to-make-m-bouquets.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-02 |
-| 3 | [Integer to Roman](./solutions/Arrays/integer-to-roman.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
-| 4 | [Reverse Integer](./solutions/Math/reverse-integer.md) | Math | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
-| 5 | [3Sum](./solutions/Arrays/3sum.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
-| 6 | [Merge k Sorted Lists](./solutions/LinkedList/merge-k-sorted-lists.md) | LinkedList | ![Hard](https://img.shields.io/badge/Hard-ff375f?style=flat-square) | cpp | 2026-06-30 |
-| 7 | [Regular Expression Matching](./solutions/Strings/regular-expression-matching.md) | Strings | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | python | 2026-06-10 |
-| 8 | [Zigzag Conversion](./solutions/Strings/zigzag-conversion.md) | Strings | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-06-10 |
-| 9 | [Median of Two Sorted Arrays](./solutions/Arrays/median-of-two-sorted-arrays.md) | Arrays | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-06-04 |
-| 10 | [Remove Nth Node From End of List](./solutions/LinkedList/remove-nth-node-from-end-of-list.md) | LinkedList | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | python | 2026-06-04 |
+| 1 | [Single Number](./solutions/BitManipulation/single-number.md) | BitManipulation | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-06 |
+| 2 | [Implement Stack using Queues](./solutions/Stack/implement-stack-using-queues.md) | Stack | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-05 |
+| 3 | [Minimum Number of Days to Make m Bouquets](./solutions/Arrays/minimum-number-of-days-to-make-m-bouquets.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-02 |
+| 4 | [Integer to Roman](./solutions/Arrays/integer-to-roman.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
+| 5 | [Reverse Integer](./solutions/Math/reverse-integer.md) | Math | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
+| 6 | [3Sum](./solutions/Arrays/3sum.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
+| 7 | [Merge k Sorted Lists](./solutions/LinkedList/merge-k-sorted-lists.md) | LinkedList | ![Hard](https://img.shields.io/badge/Hard-ff375f?style=flat-square) | cpp | 2026-06-30 |
+| 8 | [Regular Expression Matching](./solutions/Strings/regular-expression-matching.md) | Strings | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | python | 2026-06-10 |
+| 9 | [Zigzag Conversion](./solutions/Strings/zigzag-conversion.md) | Strings | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-06-10 |
+| 10 | [Median of Two Sorted Arrays](./solutions/Arrays/median-of-two-sorted-arrays.md) | Arrays | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-06-04 |
 
 ## 🗂️ By Language
 
 | Language | Count |
 |----------|-------|
-| cpp | 8 |
+| cpp | 9 |
 | python | 2 |
 
 ---
 *Auto-generated by [AlgoNest](https://github.com/your-repo/algonest) 
-— last updated 2026-07-05 05:32 UTC*
+— last updated 2026-07-06 12:34 UTC*
 ---
