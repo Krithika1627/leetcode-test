@@ -1,26 +1,34 @@
 {
-  "total_solved": 11,
+  "total_solved": 12,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 4,
     "Strings": 2,
     "Math": 1,
     "Stack": 1,
-    "BitManipulation": 1
+    "BitManipulation": 2
   },
   "by_difficulty": {
-    "Easy": 6,
+    "Easy": 7,
     "Medium": 4,
     "Hard": 1
   },
   "by_language": {
     "python": 2,
-    "cpp": 9
+    "cpp": 10
   },
   "current_streak": 2,
   "longest_streak": 3,
   "last_solved_date": "2026-07-06",
   "solve_log": [
+    {
+      "slug": "single-number",
+      "title": "Single Number",
+      "topic": "BitManipulation",
+      "difficulty": "Easy",
+      "language": "cpp",
+      "date": "2026-07-06"
+    },
     {
       "slug": "single-number",
       "title": "Single Number",
@@ -100,15 +108,6 @@
       "language": "cpp",
       "date": "2026-06-10",
       "commit_sha": "125a0942630735f6a0e91f000fa678262bec315c"
-    },
-    {
-      "slug": "median-of-two-sorted-arrays",
-      "title": "Median of Two Sorted Arrays",
-      "topic": "Arrays",
-      "difficulty": "Easy",
-      "language": "cpp",
-      "date": "2026-06-04",
-      "commit_sha": "133ee8da4bd2f3d741ee9d7a5aaacd052a648d23"
     }
   ]
 }

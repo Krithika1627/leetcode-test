@@ -36,6 +36,7 @@ public:
 | Version | File | Date |
 |---------|------|------|
 | v1 | [single-number.cpp](./single-number.cpp) | 2026-07-06 |
+| v2 | [single-number_v2.cpp](./single-number_v2.cpp) | 2026-07-06 |
 
 ## Mistakes & Notes
 <!-- post-solve reflections: what did you miss, what patterns did you notice -->
