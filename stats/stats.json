@@ -1,26 +1,35 @@
 {
-  "total_solved": 12,
+  "total_solved": 13,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 4,
     "Strings": 2,
     "Math": 1,
     "Stack": 1,
-    "BitManipulation": 2
+    "BitManipulation": 2,
+    "Greedy": 1
   },
   "by_difficulty": {
     "Easy": 7,
-    "Medium": 4,
+    "Medium": 5,
     "Hard": 1
   },
   "by_language": {
     "python": 2,
-    "cpp": 10
+    "cpp": 11
   },
-  "current_streak": 2,
+  "current_streak": 1,
   "longest_streak": 3,
-  "last_solved_date": "2026-07-06",
+  "last_solved_date": "2026-07-11",
   "solve_log": [
+    {
+      "slug": "remove-k-digits",
+      "title": "Remove K Digits",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "language": "cpp",
+      "date": "2026-07-11"
+    },
     {
       "slug": "single-number",
       "title": "Single Number",
@@ -99,15 +108,6 @@
       "language": "python",
       "date": "2026-06-10",
       "commit_sha": "d5452627a77b27546554f07d1d2d73a395585b60"
-    },
-    {
-      "slug": "zigzag-conversion",
-      "title": "Zigzag Conversion",
-      "topic": "Strings",
-      "difficulty": "Easy",
-      "language": "cpp",
-      "date": "2026-06-10",
-      "commit_sha": "125a0942630735f6a0e91f000fa678262bec315c"
     }
   ]
 }
