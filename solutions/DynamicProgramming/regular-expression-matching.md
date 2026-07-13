@@ -55,6 +55,7 @@ class Solution:
 |---------|------|------|
 | v1 | [regular-expression-matching.py](./regular-expression-matching.py) | 2026-07-13 |
 | v2 | [regular-expression-matching_v2.py](./regular-expression-matching_v2.py) | 2026-07-13 |
+| v3 | [regular-expression-matching_v3.py](./regular-expression-matching_v3.py) | 2026-07-13 |
 
 ## Mistakes & Notes
 <!-- post-solve reflections: what did you miss, what patterns did you notice -->

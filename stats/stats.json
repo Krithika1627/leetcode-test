@@ -1,5 +1,5 @@
 {
-  "total_solved": 18,
+  "total_solved": 19,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 5,
@@ -8,16 +8,16 @@
     "Stack": 1,
     "BitManipulation": 2,
     "Greedy": 1,
-    "DynamicProgramming": 2,
+    "DynamicProgramming": 3,
     "TwoPointers": 2
   },
   "by_difficulty": {
     "Easy": 9,
     "Medium": 7,
-    "Hard": 2
+    "Hard": 3
   },
   "by_language": {
-    "python": 3,
+    "python": 4,
     "cpp": 13,
     "java": 2
   },
@@ -25,6 +25,14 @@
   "longest_streak": 3,
   "last_solved_date": "2026-07-13",
   "solve_log": [
+    {
+      "slug": "regular-expression-matching",
+      "title": "Regular Expression Matching",
+      "topic": "DynamicProgramming",
+      "difficulty": "Hard",
+      "language": "python",
+      "date": "2026-07-13"
+    },
     {
       "slug": "regular-expression-matching",
       "title": "Regular Expression Matching",
@@ -97,15 +105,6 @@
       "language": "cpp",
       "date": "2026-07-05",
       "commit_sha": "40f24724a42951082843861c033f00b5aaa4b1ff"
-    },
-    {
-      "slug": "minimum-number-of-days-to-make-m-bouquets",
-      "title": "Minimum Number of Days to Make m Bouquets",
-      "topic": "Arrays",
-      "difficulty": "Medium",
-      "language": "cpp",
-      "date": "2026-07-02",
-      "commit_sha": "58e86d8afb0189a2cb31173c929673a72f9ea238"
     }
   ]
 }
