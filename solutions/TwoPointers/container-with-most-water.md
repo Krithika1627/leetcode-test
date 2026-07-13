@@ -53,6 +53,7 @@ class Solution {
 |---------|------|------|
 | v1 | [container-with-most-water.java](./container-with-most-water.java) | 2026-07-13 |
 | v2 | [container-with-most-water_v2.java](./container-with-most-water_v2.java) | 2026-07-13 |
+| v3 | [container-with-most-water_v3.java](./container-with-most-water_v3.java) | 2026-07-13 |
 
 ## Mistakes & Notes
 <!-- post-solve reflections: what did you miss, what patterns did you notice -->

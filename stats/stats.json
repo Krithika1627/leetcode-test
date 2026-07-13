@@ -1,5 +1,5 @@
 {
-  "total_solved": 16,
+  "total_solved": 17,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 5,
@@ -9,22 +9,30 @@
     "BitManipulation": 2,
     "Greedy": 1,
     "DynamicProgramming": 1,
-    "TwoPointers": 1
+    "TwoPointers": 2
   },
   "by_difficulty": {
     "Easy": 9,
-    "Medium": 6,
+    "Medium": 7,
     "Hard": 1
   },
   "by_language": {
     "python": 2,
     "cpp": 13,
-    "java": 1
+    "java": 2
   },
   "current_streak": 1,
   "longest_streak": 3,
   "last_solved_date": "2026-07-13",
   "solve_log": [
+    {
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water",
+      "topic": "TwoPointers",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-07-13"
+    },
     {
       "slug": "container-with-most-water",
       "title": "Container With Most Water",
@@ -99,15 +107,6 @@
       "language": "cpp",
       "date": "2026-07-01",
       "commit_sha": "6634a7d839fc43ea8ebe1281f834b836eb973f56"
-    },
-    {
-      "slug": "reverse-integer",
-      "title": "Reverse Integer",
-      "topic": "Math",
-      "difficulty": "Medium",
-      "language": "cpp",
-      "date": "2026-07-01",
-      "commit_sha": "7465a77f597c01a98dd3e6d9f95af4c9647c271a"
     }
   ]
 }
