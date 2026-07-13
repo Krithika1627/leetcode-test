@@ -1,11 +1,11 @@
 ---
 # 🧩 leetcode-test — LeetCode Solutions
 
-![Total](https://img.shields.io/badge/Solved-17-blueviolet?style=flat-square)
+![Total](https://img.shields.io/badge/Solved-18-blueviolet?style=flat-square)
 ![Streak](https://img.shields.io/badge/Streak-1%20days-orange?style=flat-square)
 ![Easy](https://img.shields.io/badge/Easy-9-00b8a3?style=flat-square)
 ![Medium](https://img.shields.io/badge/Medium-7-ffa116?style=flat-square)
-![Hard](https://img.shields.io/badge/Hard-1-ff375f?style=flat-square)
+![Hard](https://img.shields.io/badge/Hard-2-ff375f?style=flat-square)
 
 ---
 
@@ -17,11 +17,11 @@
 | LinkedList | 2 | ████████░░░░░░░░░░░░ |
 | Strings | 2 | ████████░░░░░░░░░░░░ |
 | BitManipulation | 2 | ████████░░░░░░░░░░░░ |
+| DynamicProgramming | 2 | ████████░░░░░░░░░░░░ |
 | TwoPointers | 2 | ████████░░░░░░░░░░░░ |
 | Math | 1 | ████░░░░░░░░░░░░░░░░ |
 | Stack | 1 | ████░░░░░░░░░░░░░░░░ |
 | Greedy | 1 | ████░░░░░░░░░░░░░░░░ |
-| DynamicProgramming | 1 | ████░░░░░░░░░░░░░░░░ |
 
 ## 🎯 Difficulty Breakdown
 
@@ -29,32 +29,32 @@
 |------------|-------|
 | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | 9 |
 | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | 7 |
-| ![Hard](https://img.shields.io/badge/Hard-ff375f?style=flat-square) | 1 |
+| ![Hard](https://img.shields.io/badge/Hard-ff375f?style=flat-square) | 2 |
 
 ## 🕐 Recently Solved
 
 | # | Problem | Topic | Difficulty | Language | Date |
 |---|---------|-------|------------|----------|------|
-| 1 | [Container With Most Water](./solutions/TwoPointers/container-with-most-water.md) | TwoPointers | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | java | 2026-07-13 |
+| 1 | [Regular Expression Matching](./solutions/DynamicProgramming/regular-expression-matching.md) | DynamicProgramming | ![Hard](https://img.shields.io/badge/Hard-ff375f?style=flat-square) | python | 2026-07-13 |
 | 2 | [Container With Most Water](./solutions/TwoPointers/container-with-most-water.md) | TwoPointers | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | java | 2026-07-13 |
-| 3 | [Pascal's Triangle](./solutions/Arrays/pascals-triangle.md) | Arrays | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-13 |
-| 4 | [Pascal's Triangle](./solutions/DynamicProgramming/pascals-triangle.md) | DynamicProgramming | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-13 |
-| 5 | [Remove K Digits](./solutions/Greedy/remove-k-digits.md) | Greedy | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-11 |
-| 6 | [Single Number](./solutions/BitManipulation/single-number.md) | BitManipulation | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-06 |
+| 3 | [Container With Most Water](./solutions/TwoPointers/container-with-most-water.md) | TwoPointers | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | java | 2026-07-13 |
+| 4 | [Pascal's Triangle](./solutions/Arrays/pascals-triangle.md) | Arrays | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-13 |
+| 5 | [Pascal's Triangle](./solutions/DynamicProgramming/pascals-triangle.md) | DynamicProgramming | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-13 |
+| 6 | [Remove K Digits](./solutions/Greedy/remove-k-digits.md) | Greedy | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-11 |
 | 7 | [Single Number](./solutions/BitManipulation/single-number.md) | BitManipulation | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-06 |
-| 8 | [Implement Stack using Queues](./solutions/Stack/implement-stack-using-queues.md) | Stack | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-05 |
-| 9 | [Minimum Number of Days to Make m Bouquets](./solutions/Arrays/minimum-number-of-days-to-make-m-bouquets.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-02 |
-| 10 | [Integer to Roman](./solutions/Arrays/integer-to-roman.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
+| 8 | [Single Number](./solutions/BitManipulation/single-number.md) | BitManipulation | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-06 |
+| 9 | [Implement Stack using Queues](./solutions/Stack/implement-stack-using-queues.md) | Stack | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-05 |
+| 10 | [Minimum Number of Days to Make m Bouquets](./solutions/Arrays/minimum-number-of-days-to-make-m-bouquets.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-02 |
 
 ## 🗂️ By Language
 
 | Language | Count |
 |----------|-------|
 | cpp | 13 |
-| python | 2 |
+| python | 3 |
 | java | 2 |
 
 ---
 *Auto-generated by [AlgoNest](https://github.com/your-repo/algonest) 
-— last updated 2026-07-13 12:11 UTC*
+— last updated 2026-07-13 12:14 UTC*
 ---

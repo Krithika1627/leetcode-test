@@ -1,5 +1,5 @@
 {
-  "total_solved": 17,
+  "total_solved": 18,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 5,
@@ -8,16 +8,16 @@
     "Stack": 1,
     "BitManipulation": 2,
     "Greedy": 1,
-    "DynamicProgramming": 1,
+    "DynamicProgramming": 2,
     "TwoPointers": 2
   },
   "by_difficulty": {
     "Easy": 9,
     "Medium": 7,
-    "Hard": 1
+    "Hard": 2
   },
   "by_language": {
-    "python": 2,
+    "python": 3,
     "cpp": 13,
     "java": 2
   },
@@ -25,6 +25,14 @@
   "longest_streak": 3,
   "last_solved_date": "2026-07-13",
   "solve_log": [
+    {
+      "slug": "regular-expression-matching",
+      "title": "Regular Expression Matching",
+      "topic": "DynamicProgramming",
+      "difficulty": "Hard",
+      "language": "python",
+      "date": "2026-07-13"
+    },
     {
       "slug": "container-with-most-water",
       "title": "Container With Most Water",
@@ -98,15 +106,6 @@
       "language": "cpp",
       "date": "2026-07-02",
       "commit_sha": "58e86d8afb0189a2cb31173c929673a72f9ea238"
-    },
-    {
-      "slug": "integer-to-roman",
-      "title": "Integer to Roman",
-      "topic": "Arrays",
-      "difficulty": "Medium",
-      "language": "cpp",
-      "date": "2026-07-01",
-      "commit_sha": "6634a7d839fc43ea8ebe1281f834b836eb973f56"
     }
   ]
 }
