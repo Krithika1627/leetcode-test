@@ -1,8 +1,8 @@
 {
-  "total_solved": 14,
+  "total_solved": 15,
   "by_topic": {
     "LinkedList": 2,
-    "Arrays": 4,
+    "Arrays": 5,
     "Strings": 2,
     "Math": 1,
     "Stack": 1,
@@ -11,18 +11,26 @@
     "DynamicProgramming": 1
   },
   "by_difficulty": {
-    "Easy": 8,
+    "Easy": 9,
     "Medium": 5,
     "Hard": 1
   },
   "by_language": {
     "python": 2,
-    "cpp": 12
+    "cpp": 13
   },
   "current_streak": 1,
   "longest_streak": 3,
   "last_solved_date": "2026-07-13",
   "solve_log": [
+    {
+      "slug": "pascals-triangle",
+      "title": "Pascal's Triangle",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "language": "cpp",
+      "date": "2026-07-13"
+    },
     {
       "slug": "pascals-triangle",
       "title": "Pascal's Triangle",
@@ -99,15 +107,6 @@
       "language": "cpp",
       "date": "2026-07-01",
       "commit_sha": "8a248cab084b4a518bbefe91502d65ffeeee3421"
-    },
-    {
-      "slug": "merge-k-sorted-lists",
-      "title": "Merge k Sorted Lists",
-      "topic": "LinkedList",
-      "difficulty": "Hard",
-      "language": "cpp",
-      "date": "2026-06-30",
-      "commit_sha": "5264d1e0d2dde3c7671fc91232140dd0eea6f19f"
     }
   ]
 }

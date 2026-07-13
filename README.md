@@ -1,9 +1,9 @@
 ---
 # 🧩 leetcode-test — LeetCode Solutions
 
-![Total](https://img.shields.io/badge/Solved-14-blueviolet?style=flat-square)
+![Total](https://img.shields.io/badge/Solved-15-blueviolet?style=flat-square)
 ![Streak](https://img.shields.io/badge/Streak-1%20days-orange?style=flat-square)
-![Easy](https://img.shields.io/badge/Easy-8-00b8a3?style=flat-square)
+![Easy](https://img.shields.io/badge/Easy-9-00b8a3?style=flat-square)
 ![Medium](https://img.shields.io/badge/Medium-5-ffa116?style=flat-square)
 ![Hard](https://img.shields.io/badge/Hard-1-ff375f?style=flat-square)
 
@@ -13,20 +13,20 @@
 
 | Topic | Solved | Progress |
 |-------|--------|----------|
-| Arrays | 4 | ████████████████████ |
-| LinkedList | 2 | ██████████░░░░░░░░░░ |
-| Strings | 2 | ██████████░░░░░░░░░░ |
-| BitManipulation | 2 | ██████████░░░░░░░░░░ |
-| Math | 1 | █████░░░░░░░░░░░░░░░ |
-| Stack | 1 | █████░░░░░░░░░░░░░░░ |
-| Greedy | 1 | █████░░░░░░░░░░░░░░░ |
-| DynamicProgramming | 1 | █████░░░░░░░░░░░░░░░ |
+| Arrays | 5 | ████████████████████ |
+| LinkedList | 2 | ████████░░░░░░░░░░░░ |
+| Strings | 2 | ████████░░░░░░░░░░░░ |
+| BitManipulation | 2 | ████████░░░░░░░░░░░░ |
+| Math | 1 | ████░░░░░░░░░░░░░░░░ |
+| Stack | 1 | ████░░░░░░░░░░░░░░░░ |
+| Greedy | 1 | ████░░░░░░░░░░░░░░░░ |
+| DynamicProgramming | 1 | ████░░░░░░░░░░░░░░░░ |
 
 ## 🎯 Difficulty Breakdown
 
 | Difficulty | Count |
 |------------|-------|
-| ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | 8 |
+| ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | 9 |
 | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | 5 |
 | ![Hard](https://img.shields.io/badge/Hard-ff375f?style=flat-square) | 1 |
 
@@ -34,25 +34,25 @@
 
 | # | Problem | Topic | Difficulty | Language | Date |
 |---|---------|-------|------------|----------|------|
-| 1 | [Pascal's Triangle](./solutions/DynamicProgramming/pascals-triangle.md) | DynamicProgramming | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-13 |
-| 2 | [Remove K Digits](./solutions/Greedy/remove-k-digits.md) | Greedy | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-11 |
-| 3 | [Single Number](./solutions/BitManipulation/single-number.md) | BitManipulation | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-06 |
+| 1 | [Pascal's Triangle](./solutions/Arrays/pascals-triangle.md) | Arrays | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-13 |
+| 2 | [Pascal's Triangle](./solutions/DynamicProgramming/pascals-triangle.md) | DynamicProgramming | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-13 |
+| 3 | [Remove K Digits](./solutions/Greedy/remove-k-digits.md) | Greedy | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-11 |
 | 4 | [Single Number](./solutions/BitManipulation/single-number.md) | BitManipulation | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-06 |
-| 5 | [Implement Stack using Queues](./solutions/Stack/implement-stack-using-queues.md) | Stack | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-05 |
-| 6 | [Minimum Number of Days to Make m Bouquets](./solutions/Arrays/minimum-number-of-days-to-make-m-bouquets.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-02 |
-| 7 | [Integer to Roman](./solutions/Arrays/integer-to-roman.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
-| 8 | [Reverse Integer](./solutions/Math/reverse-integer.md) | Math | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
-| 9 | [3Sum](./solutions/Arrays/3sum.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
-| 10 | [Merge k Sorted Lists](./solutions/LinkedList/merge-k-sorted-lists.md) | LinkedList | ![Hard](https://img.shields.io/badge/Hard-ff375f?style=flat-square) | cpp | 2026-06-30 |
+| 5 | [Single Number](./solutions/BitManipulation/single-number.md) | BitManipulation | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-06 |
+| 6 | [Implement Stack using Queues](./solutions/Stack/implement-stack-using-queues.md) | Stack | ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square) | cpp | 2026-07-05 |
+| 7 | [Minimum Number of Days to Make m Bouquets](./solutions/Arrays/minimum-number-of-days-to-make-m-bouquets.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-02 |
+| 8 | [Integer to Roman](./solutions/Arrays/integer-to-roman.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
+| 9 | [Reverse Integer](./solutions/Math/reverse-integer.md) | Math | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
+| 10 | [3Sum](./solutions/Arrays/3sum.md) | Arrays | ![Medium](https://img.shields.io/badge/Medium-ffa116?style=flat-square) | cpp | 2026-07-01 |
 
 ## 🗂️ By Language
 
 | Language | Count |
 |----------|-------|
-| cpp | 12 |
+| cpp | 13 |
 | python | 2 |
 
 ---
 *Auto-generated by [AlgoNest](https://github.com/your-repo/algonest) 
-— last updated 2026-07-13 11:52 UTC*
+— last updated 2026-07-13 11:56 UTC*
 ---
