@@ -1,5 +1,5 @@
 {
-  "total_solved": 13,
+  "total_solved": 14,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 4,
@@ -7,21 +7,30 @@
     "Math": 1,
     "Stack": 1,
     "BitManipulation": 2,
-    "Greedy": 1
+    "Greedy": 1,
+    "DynamicProgramming": 1
   },
   "by_difficulty": {
-    "Easy": 7,
+    "Easy": 8,
     "Medium": 5,
     "Hard": 1
   },
   "by_language": {
     "python": 2,
-    "cpp": 11
+    "cpp": 12
   },
   "current_streak": 1,
   "longest_streak": 3,
-  "last_solved_date": "2026-07-11",
+  "last_solved_date": "2026-07-13",
   "solve_log": [
+    {
+      "slug": "pascals-triangle",
+      "title": "Pascal's Triangle",
+      "topic": "DynamicProgramming",
+      "difficulty": "Easy",
+      "language": "cpp",
+      "date": "2026-07-13"
+    },
     {
       "slug": "remove-k-digits",
       "title": "Remove K Digits",
@@ -99,15 +108,6 @@
       "language": "cpp",
       "date": "2026-06-30",
       "commit_sha": "5264d1e0d2dde3c7671fc91232140dd0eea6f19f"
-    },
-    {
-      "slug": "regular-expression-matching",
-      "title": "Regular Expression Matching",
-      "topic": "Strings",
-      "difficulty": "Easy",
-      "language": "python",
-      "date": "2026-06-10",
-      "commit_sha": "d5452627a77b27546554f07d1d2d73a395585b60"
     }
   ]
 }
