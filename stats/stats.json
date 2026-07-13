@@ -1,5 +1,5 @@
 {
-  "total_solved": 22,
+  "total_solved": 23,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 5,
@@ -10,22 +10,30 @@
     "Greedy": 1,
     "DynamicProgramming": 4,
     "TwoPointers": 2,
-    "Graphs": 2
+    "Graphs": 3
   },
   "by_difficulty": {
-    "Easy": 10,
+    "Easy": 11,
     "Medium": 7,
     "Hard": 5
   },
   "by_language": {
     "python": 4,
-    "cpp": 16,
+    "cpp": 17,
     "java": 2
   },
   "current_streak": 1,
   "longest_streak": 3,
   "last_solved_date": "2026-07-13",
   "solve_log": [
+    {
+      "slug": "word-ladder",
+      "title": "Word Ladder",
+      "topic": "Graphs",
+      "difficulty": "Easy",
+      "language": "cpp",
+      "date": "2026-07-13"
+    },
     {
       "slug": "word-ladder",
       "title": "Word Ladder",
@@ -97,14 +105,6 @@
       "difficulty": "Easy",
       "language": "cpp",
       "date": "2026-07-13"
-    },
-    {
-      "slug": "remove-k-digits",
-      "title": "Remove K Digits",
-      "topic": "Greedy",
-      "difficulty": "Medium",
-      "language": "cpp",
-      "date": "2026-07-11"
     }
   ]
 }

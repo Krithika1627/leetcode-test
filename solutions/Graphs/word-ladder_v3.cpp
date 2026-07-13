@@ -1,27 +1,3 @@
----
-# Word Ladder
-
-<!-- badges -->
-![Hard](https://img.shields.io/badge/Hard-ff375f?style=flat-square)  ![Graphs](https://img.shields.io/badge/Graphs-0a84ff?style=flat-square)  ![cpp](https://img.shields.io/badge/cpp-555555?style=flat-square)  <!-- streak badge placeholder -->
-
-**LeetCode:** https://leetcode.com/problems/word-ladder/  
-**Solved:** 2026-07-13  
-**Runtime:** 35 ms | **Memory:** 21.3 MB
-
----
-
-## Approach
-<!-- describe your approach here -->
-
-## Complexity
-    - **Time:** O(M^2 * N)
-    - **Space:** O(M * N)
-
-M is the length of each word and N is the number of words. We perform BFS where each word is processed once. For each word, we iterate through M positions and 26 characters, with string hashing taking O(M) time.
-
-## Solution
-
-```cpp
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
@@ -70,19 +46,3 @@ public:
         return 0;
     }
 };
-```
-
-## Versions
-| Version | File | Date |
-|---------|------|------|
-| v1 | [word-ladder.cpp](./word-ladder.cpp) | 2026-07-13 |
-| v2 | [word-ladder_v2.cpp](./word-ladder_v2.cpp) | 2026-07-13 |
-| v3 | [word-ladder_v3.cpp](./word-ladder_v3.cpp) | 2026-07-13 |
-
-## Mistakes & Notes
-<!-- post-solve reflections: what did you miss, what patterns did you notice -->
-
-## Related Problems
-<!-- links to related problems will be auto-populated in Part 3 -->
-
----
