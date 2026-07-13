@@ -1,5 +1,5 @@
 {
-  "total_solved": 15,
+  "total_solved": 16,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 5,
@@ -8,21 +8,31 @@
     "Stack": 1,
     "BitManipulation": 2,
     "Greedy": 1,
-    "DynamicProgramming": 1
+    "DynamicProgramming": 1,
+    "TwoPointers": 1
   },
   "by_difficulty": {
     "Easy": 9,
-    "Medium": 5,
+    "Medium": 6,
     "Hard": 1
   },
   "by_language": {
     "python": 2,
-    "cpp": 13
+    "cpp": 13,
+    "java": 1
   },
   "current_streak": 1,
   "longest_streak": 3,
   "last_solved_date": "2026-07-13",
   "solve_log": [
+    {
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water",
+      "topic": "TwoPointers",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-07-13"
+    },
     {
       "slug": "pascals-triangle",
       "title": "Pascal's Triangle",
@@ -98,15 +108,6 @@
       "language": "cpp",
       "date": "2026-07-01",
       "commit_sha": "7465a77f597c01a98dd3e6d9f95af4c9647c271a"
-    },
-    {
-      "slug": "3sum",
-      "title": "3Sum",
-      "topic": "Arrays",
-      "difficulty": "Medium",
-      "language": "cpp",
-      "date": "2026-07-01",
-      "commit_sha": "8a248cab084b4a518bbefe91502d65ffeeee3421"
     }
   ]
 }
