@@ -47,6 +47,7 @@ public:
 | Version | File | Date |
 |---------|------|------|
 | v1 | [pascals-triangle.cpp](./pascals-triangle.cpp) | 2026-07-13 |
+| v2 | [pascals-triangle_v2.cpp](./pascals-triangle_v2.cpp) | 2026-07-13 |
 
 ## Mistakes & Notes
 <!-- post-solve reflections: what did you miss, what patterns did you notice -->

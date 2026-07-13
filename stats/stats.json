@@ -1,5 +1,5 @@
 {
-  "total_solved": 19,
+  "total_solved": 20,
   "by_topic": {
     "LinkedList": 2,
     "Arrays": 5,
@@ -8,23 +8,31 @@
     "Stack": 1,
     "BitManipulation": 2,
     "Greedy": 1,
-    "DynamicProgramming": 3,
+    "DynamicProgramming": 4,
     "TwoPointers": 2
   },
   "by_difficulty": {
-    "Easy": 9,
+    "Easy": 10,
     "Medium": 7,
     "Hard": 3
   },
   "by_language": {
     "python": 4,
-    "cpp": 13,
+    "cpp": 14,
     "java": 2
   },
   "current_streak": 1,
   "longest_streak": 3,
   "last_solved_date": "2026-07-13",
   "solve_log": [
+    {
+      "slug": "pascals-triangle",
+      "title": "Pascal's Triangle",
+      "topic": "DynamicProgramming",
+      "difficulty": "Easy",
+      "language": "cpp",
+      "date": "2026-07-13"
+    },
     {
       "slug": "regular-expression-matching",
       "title": "Regular Expression Matching",
@@ -96,15 +104,6 @@
       "difficulty": "Easy",
       "language": "cpp",
       "date": "2026-07-06"
-    },
-    {
-      "slug": "implement-stack-using-queues",
-      "title": "Implement Stack using Queues",
-      "topic": "Stack",
-      "difficulty": "Easy",
-      "language": "cpp",
-      "date": "2026-07-05",
-      "commit_sha": "40f24724a42951082843861c033f00b5aaa4b1ff"
     }
   ]
 }
